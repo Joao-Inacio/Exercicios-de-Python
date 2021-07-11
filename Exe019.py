@@ -9,4 +9,4 @@ aluno3 = input('Nome do Terceiro Aluno: ')
 aluno4 = input('Nome do Quarto Aluno: ')
 lista = [aluno1, aluno2, aluno3, aluno4]
 sortea = random.choice(lista)
-print(sortea)
+print(f'O aluno sorteado foi {sortea}')
