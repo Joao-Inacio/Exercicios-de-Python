@@ -5,5 +5,5 @@ Faça um programa que leia a largura e altura de uma parede em metros calcule a 
 altura = float(input('Altura?: '))
 largura = float(input('Largura?: '))
 metros = altura * largura
-print(f'Uma parede de {metros}m² vai precisar de {metros / 2}litros de tintas')
+print(f'Uma parede de {metros:.2f}m² vai precisar de {metros / 2:.2f}litros de tintas')
 
