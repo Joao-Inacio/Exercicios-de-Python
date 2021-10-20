@@ -1,5 +1,6 @@
 """
- Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada
+ Faça um programa que leia um número inteiro
+qualquer e mostre na tela a sua tabuada
 """
 n = int(input('Tabuada do número: '))
 print(f'{n} + 0 = {n+0}\n'
